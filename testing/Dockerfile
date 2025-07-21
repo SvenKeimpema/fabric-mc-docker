@@ -1,0 +1,10 @@
+FROM itzg/minecraft-server
+
+WORKDIR /data
+
+ENV MEMORY=32G
+ENV EULA=true
+ENV VERSION=1.21.8
+ENV TYPE=PAPER
+
+EXPOSE 25565
